@@ -35,7 +35,7 @@ p{
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 600;
-    background-color:#e7ebf0;
+    background-color:#9dc2f0;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
@@ -78,14 +78,14 @@ header > .limite{
 }
 
 header a{
-    color: rgb(110,110, 110);
+    color: rgb(253, 253, 253);
     text-decoration: none; 
     display: inline-block;
     transition: .2s;
 }
 
 header nav.menu-desktop a:hover{
-    color: azure;
+    color: rgb(146, 214, 214);
     transform: scale(1.05);
   
 }
@@ -138,29 +138,12 @@ section.topo-do-site .flex{
    
 }
 
-@keyframes flutuar{
-    0%{
-        top:0;
-    }
-
-    100%{
-        top:30px;
-    }
+.home{
+    background-image: url(imagens/escritório\ \(1\).jpg);
 }
 
-#scroll-to-top-btn{
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-    font-size: 30px;
-    background-color: #bff1ff;
-    border: 0;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .2s;
-   
-}
+
+
 
 #scroll-to-top-btn:hover {
     background-color: #555;
@@ -210,7 +193,7 @@ section.especialidades .flex{
 .especialidades span{
     font-size: 40px;
     font-weight: bolder;
-    color: #ffffff;
+    color: #253cbd;
 }
 
 /*estilo do rodape*/
