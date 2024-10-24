@@ -212,7 +212,7 @@ section.topo-do-site .flex{
 
 .topo-do-site .img-topo-site img{
     position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+  
 }
 
 @keyframes flutuar{
@@ -276,51 +276,7 @@ section.especialidades .flex{
 
 }
 
-/*estilo sobre*/
-section.sobre{
-    padding: 80px 4%;
-}
 
-section.sobre .img-sobre img{
-   width: 350px;
-   border-radius: 20px;
-}
-
-section.sobre .flex{
-    align-items: center;
-    gap: 60px;
-}
-
-.sobre .txt-sobre{
-    color: aliceblue;
-}
-
-.sobre .txt-sobre h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.sobre .txt-sobre h2 span{
-    color: #bff1ff;
-    display: block;
-}
-
-.sobre .txt-sobre p{
-    margin: 20px 0;
-    text-align: justify;
-}
-
- .btn-social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: #bff1ff;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 0 5px;
-    transition:.2s;
-}
 
 /*estilo portifólio*/
 section.portfolio{
